@@ -1,0 +1,27 @@
+{
+    "name": "winter/wn-laravelnightwatch-plugin",
+    "type": "winter-plugin",
+    "description": "Integrates Laravel Nightwatch into Winter CMS; first-class monitoring for Laravel applications.",
+    "homepage": "https://github.com/wintercms/wn-laravelnightwatch-plugin",
+    "keywords": ["winter", "wintercms", "laravel", "nightwatch", "monitoring"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Towers",
+            "email": "wintercms@luketowers.ca"
+        },
+        {
+            "name": "Winter CMS Maintainers",
+            "homepage": "https://wintercms.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "laravel/nightwatch": "^1.14"
+    },
+    "support": {
+        "issues": "https://github.com/wintercms/wn-laravelnightwatch-plugin/issues",
+        "discord": "https://discord.gg/D5MFSPH6Ux",
+        "source": "https://github.com/wintercms/wn-laravelnightwatch-plugin"
+    }
+}
