@@ -37,7 +37,7 @@ class Plugin extends PluginBase
 
         if ($this->app->environment() === 'local') {
             Nightwatch::handleUnrecoverableExceptionsUsing(function ($e) {
-                dd('Nightwatch Unrecoverable Exception', $e);
+                // dd('Nightwatch Unrecoverable Exception', $e);
             });
         }
 
